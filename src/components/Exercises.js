@@ -35,7 +35,7 @@ const Exercises = ({exercises, bodyPart, setExercises}) => {
     }
 
     fetchExercisesData()
-  }, [bodyPart])
+  }, [bodyPart, setExercises])
 
 
   return (
